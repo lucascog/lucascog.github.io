@@ -12,7 +12,7 @@
     <title>Lucky Miner Game</title>
   </head>
   <body>
-  	<div class="bg-home">
+  	<div class="bg-winners">
   			<div class="bg2 mb-5">
       <div id="menu">
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -34,7 +34,7 @@
                   <a class="nav-link text-left " href="this-week-drawing.html">This week's drawing</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-left active" href="winners.html">Winners</a>
+                  <a class="nav-link text-left active" href="winners.html">Last Winners</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-left " href="Faq.html">FAQ</a>
@@ -44,60 +44,72 @@
         </nav>       
       </div>
     </div>
-
   		<div class="container-fluid">
 
   			<div class="row">
-	  			<div class="col-xs-12 col-md-12 text-center mt-5 pt-5">
-	  				<img src="../Web-dev/src/logo.svg" class="img-fluid logo" alt="" width="270" height="130">
+	  			<div class="col-xs-12 col-md-12 text-center">
+	  				<img src="../Web-dev/src/logo.svg" class="logo-winners" alt="" width="133" height="278">
 	  			</div>
+	  			<img src="../Web-dev/src/winners/balloons.png" alt="" class="balloons d-none d-lg-block">
 	  		</div>
 
-			<div class="col-md-12 text-center mt-3">
-				<h1 class="main-text">
-					The Game That <br>Pays You To Play
-				</h1>
-			</div>
 
-			
 		</div>
-		<div class="container d-none d-lg-block">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-4 text-right characters">
-					<img src="../Web-dev/src/lm-ml.png" alt="male-miner" width="250" height="325" class="img-fluid">
+				<div class="col-lg-3 col-md-1  text-left  d-flex align-items-end">
+			  			<img src="../Web-dev/src/lm-ml.png" alt="male-miner" width="250" height="325" class="img-fluid d-none d-lg-block character">
 				</div>
-				<div class="col-md-4 d-none d-lg-block text-center  mt-5">
-					<a href="https://luckyminerapp.com/join" class="play-btn"> 
-			  			<span>Download Game</span>
-			  		</a>
+				<div class="col-lg-6 col-md-10  text-center mid-background p-0 box-down">
+
+					<h1 class="mt-5 mb-5 brown-color">CONGRATULATIONS <br>YOU WON!</h1>
+
+					<div class="coin-background text-center pl-3 pr-3 ">
+						<div class="coins d-flex justify-content-around pt-4">
+							<div class="coin-wrapper my-auto mx-auto text-center">10</div>
+							<div class="coin-wrapper my-auto mx-auto text-center">11</div>
+							<div class="coin-wrapper my-auto mx-auto text-center">12</div>
+							<div class="coin-wrapper my-auto mx-auto text-center">13</div>
+							<div class="coin-wrapper my-auto mx-auto text-center">14</div>
+							<div class="coin-wrapper my-auto mx-auto text-center">15</div>
+						</div>
+					</div>
+
+					<div class="container justify-content-center mt-5">
+						<h2 class="brown-color">YOUR UNCLAIMED<br>BALANCE IS:</h2>
+					</div>
+					<form action="" method='get'>
+
+						<div class="prize-view col-12 col-md-10 offset-md-1 mt-4">
+	 						<span>5,000,000 Satoshis*</span>
+						</div>
+						
+
+						<div class="container justify-content-center mt-5">
+							<a href="you-won-2.html" class="play-btn"> 
+			  					<span>claim your prize</span>
+			  				</a>
+						</div>
+					</form>
+
+					<p class="mb-2 mt-5"> (*) A Satoshi is the smallest unit of Bitcoin </p>
+
 				</div>
-				<div class="col-md-4 text-left characters">
-			  			<img src="../Web-dev/src/lm-fml.png" alt="male-miner" width="250" height="325" class="img-fluid">
+
+				<div class="col-lg-3 col-md-1 text-left character d-flex align-items-end">
+			  			<img src="../Web-dev/src/lm-fml.png" alt="female-miner" width="250" height="325" class="img-fluid d-none d-lg-block">
 				</div>
 		  	</div>
 		</div>
 
 
-		<div class="container-fluid d-none d-lg-block">
+		<div class="container-fluid d-none d-md-block ">
 			<div class="row">
 	  			<div class="ground"></div>
 	  		</div>
 	  	</div>
 
-	  		<!-- Mobile Characters and button-->
-
-		<div class="container-fluid d-lg-none position-relative">
-			<div class="row">
-				<div class="mx-auto">
-					<img src="../Web-dev/src/mobile-characters.png" class="img-fluid">
-					<a href="https://luckyminerapp.com/join" class="play-btn text-center btn-mobile"> 
-			  			<span>play</span>
-			  		</a>
-				</div>
-				
-			</div>	
-			
-		</div>
+	  		
 
 	
 	 		
