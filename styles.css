@@ -3,7 +3,7 @@
 	font-family: 'pixelsix10';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../Web-dev/src/fonts/pixelsix10.ttf');
+	src: url('../src/fonts/pixelsix10.ttf');
 
 }
 
@@ -15,14 +15,14 @@ HOME PAGE
 
 body, html {
   height: auto;
-  background-image: url('../Web-dev/src/ground-2.jpg');
+  background-image: url('../src/ground-2.jpg');
 	background-position: bottom;
   	background-repeat: repeat;
 }
 
 .bg-home {
   /* The image used */
-  background-image: url('../Web-dev/src/Background.jpg');
+  background-image: url('../src/Background.jpg');
 
   /* Full height */
   height: 100%;
@@ -67,7 +67,7 @@ body, html {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url('../Web-dev/src/menu-btn.svg')!important;
+    background-image: url('../src/menu-btn.svg')!important;
 }
 
 .navbar-light .navbar-toggler {
@@ -109,7 +109,7 @@ ul li a:hover{
 }
 
 .ground {
-	background-image: url('../Web-dev/src/ground.png');
+	background-image: url('../src/ground.png');
 	background-position: bottom;
   	background-repeat: repeat-x;
 	height: 120px;
@@ -187,7 +187,7 @@ ul li a:hover{
 
 .bg-faq {
   /* The image used */
-  background-image: url('../Web-dev/src/faq/background-faq.jpg');
+  background-image: url('../src/faq/background-faq.jpg');
 
   /* Full height */
   height: auto;
@@ -267,7 +267,7 @@ outline: none;
 
 .bg-winners{
 	  /* The image used */
-	  background-image: url('../Web-dev/src/winners/Background.jpg');
+	  background-image: url('../src/winners/Background.jpg');
 
 	  /* Full height */
 	  height: 100%;
@@ -349,7 +349,7 @@ outline: none;
 
 
 .coin-wrapper {
-	 background-image: url('../Web-dev/src/winners/coin.png');
+	 background-image: url('../src/winners/coin.png');
 	 height: 100%;
 	 width: 100%;
 
@@ -403,7 +403,7 @@ outline: none;
 	font-size: 2rem;
 	line-height: 4rem;
 	height: 4rem;
-	background-image: url('../Web-dev/src/winners/coin.png');
+	background-image: url('../src/winners/coin.png');
     background-repeat: no-repeat;
     background-size: 25px 35px;
     background-position: left center;
@@ -424,7 +424,7 @@ outline: none;
 }
 
 .drawing-coin {
- 	background-image: url('../Web-dev/src/winners/coin.png');
+ 	background-image: url('../src/winners/coin.png');
 	 height: 120px;
 	 width: 100%;
 	 line-height: 120px;
@@ -461,7 +461,7 @@ outline: none;
 	font-family: 'pixelsix10';
 	bottom: : 20px;
 	color: white;
-	background-image: url('../Web-dev/src/ground-2.jpg');
+	background-image: url('../src/ground-2.jpg');
 	background-position: bottom;
   	background-repeat: repeat;
   	height: 100px;
@@ -483,7 +483,7 @@ outline: none;
 	.bag-menu-img {
 	    width: 110%!important;
 	    height: 100vh!important;
-	    background-image: url('../Web-dev/src/ground-2.jpg')!important;
+	    background-image: url('../src/ground-2.jpg')!important;
 	    background-repeat: inherit;
 	    z-index: 1!important;
 	    position: fixed;
