@@ -660,9 +660,16 @@ outline: none;
 
 
 @media (min-width: 1920px){
+
+
+
+
+
+
+	
 	.logo {
 	margin-top: 15vh;
-}
+	}
 	
 }
 @media (min-width: 2560px){
