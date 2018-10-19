@@ -22,7 +22,7 @@ body, html {
 
 .bg-home {
   /* The image used */
-  background-image: url('src/Background.jpg');
+  background-image: url('src/background.jpg');
 
   /* Full height */
   height: 100%;
@@ -267,7 +267,7 @@ outline: none;
 
 .bg-winners{
 	  /* The image used */
-	  background-image: url('src/winners/Background.jpg');
+	  background-image: url('src/winners/background.jpg');
 
 	  /* Full height */
 	  height: 100%;
